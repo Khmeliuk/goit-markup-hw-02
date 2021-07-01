@@ -75,18 +75,19 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+
 .buttom {
   color: var(--banner-color);
   background: var(--accent-color);
   font-family: inherit;
   cursor: pointer;
-
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
   text-align: center;
   letter-spacing: 0.06em;
 }
+
 .buttom:focus,
 .buttom:hover {
   color: var(--banner-color);
@@ -133,6 +134,7 @@ body {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  font-style: normal;
 }
 
 .tell-mail {
@@ -159,11 +161,13 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
+
 .filter-butom:hover,
 .filter-butom:focus {
   background-color: var(--accent-color);
   color: var(--banner-color);
 }
+
 .portfolio-title {
   color: var(--main-color);
   text-decoration: none;
@@ -172,6 +176,7 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
 }
+
 .portfolio-p {
   color: var(--secondary-color);
   font-size: 16px;
