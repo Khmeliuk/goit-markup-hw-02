@@ -1,0 +1,95 @@
+/* main color #212121 */
+/* secondary color #757575 */
+/* color logo #757575 */
+/* white color FFFFFF */
+/* accent "2196F3 */
+/* contact color rgba(255, 255, 255, 0.6); */
+/* backgroundcolor #E5E5E5 */
+/* змінні */
+:root {
+  --logo-black-color: #000000;
+  --main-color: #212121;
+  --secondary-color: #757575;
+  --accent-color: #2196f3;
+  --contact-color: rgba(255, 255, 255, 0.6);
+  --main-background-color: #e5e5e5;
+  --banner-color: #ffffff;
+  --hower-bg-buttom-color: #188ce8;
+}
+
+body {
+  font-family: 'roboto', 'sans-serif';
+  background-color: var(--main-background-color);
+}
+
+/* header */
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  text-decoration: none;
+}
+.logo .begin {
+  color: var(--accent-color);
+}
+.logo .end {
+  color: var(--logo-black-color);
+}
+.nav-list .link {
+  color: var(--main-color);
+}
+.nav-list .link.current {
+  color: var(--accent-color);
+}
+.nav-list .link:hover,
+.nav-list .link:focus {
+  color: var(--accent-color);
+}
+.contact {
+  color: var(--main-color);
+}
+.contact:hover,
+.contact:focus {
+  color: var(--accent-color);
+}
+
+/* main */
+/* banner section */
+.banner-section {
+  color: var(--banner-color);
+}
+.buttom {
+  color: var(--banner-color);
+  background: var(--accent-color);
+}
+.buttom:focus,
+.buttom:hover {
+  color: var(--banner-color);
+  background: var(--hower-bg-buttom-color);
+}
+
+.list {
+  list-style: none;
+}
+.section-title {
+  color: #212121;
+}
+
+/* features*/
+.features .title {
+  color: var(--main-color);
+}
+.paragraf {
+  color: var(--secondary-color);
+  list-style: none;
+}
+
+/* header */
+.address {
+  color: var(--banner-color);
+}
+.address .tell-mail {
+  color: var(--contact-color);
+}
