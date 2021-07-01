@@ -1,4 +1,4 @@
-/* змінні */
+/* var */
 :root {
   --logo-black-color: #000000;
   --main-color: #212121;
@@ -153,6 +153,11 @@ body {
   font-family: inherit;
   background-color: var(--buttom-bg);
   color: var(--main-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .filter-butom:hover,
 .filter-butom:focus {
