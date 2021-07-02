@@ -9,6 +9,7 @@
   --banner-color: #ffffff;
   --hower-bg-buttom-color: #188ce8;
   --buttom-bg: #f5f4fa;
+  --secondary-bg-color: #2f303a;
 }
 /* body */
 body {
@@ -18,6 +19,7 @@ body {
 }
 
 /* header */
+/* logo */
 .logo {
   font-family: Raleway;
   font-weight: 700;
@@ -34,10 +36,17 @@ body {
 .logo .end {
   color: var(--logo-black-color);
 }
+.secondary-end {
+  color: var(--banner-color);
+}
 
 .nav-list .link {
   color: var(--main-color);
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .nav-list .link.current {
@@ -55,7 +64,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: var(--main-color);
+  color: var(--secondary-color);
 }
 
 .contact:hover,
@@ -112,11 +121,12 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.paragraf {
+.paragraph {
   color: var(--secondary-color);
-  font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 1.2;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 /* our ream */
 
@@ -125,6 +135,12 @@ body {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+}
+.ourteam-paragraph {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
 }
 /* futor */
 .address {
@@ -145,6 +161,9 @@ body {
 .tell-mail:hover,
 .tell-mail:focus {
   color: var(--accent-color);
+}
+.footer {
+  background-color: var(--secondary-bg-color);
 }
 
 /* main portfolio */
